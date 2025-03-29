@@ -22,7 +22,7 @@ for z in z_s :
             kdec = math.ceil(math.log10(i)) + 1
         sq_wanted = z*(10**kdec) + i
         if sq_wanted == sq :
-            print(f'FOUND! {i}^{z}'+ f'= {sq}')
+            print(f'FOUND! {i}^{z} = {sq}')
             k=True
 
 if not k :
